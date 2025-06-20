@@ -1,0 +1,32 @@
+a)
+programa
+{
+	inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+		real a
+		real b = 11.5
+		real c = 6.3
+
+		a = m.potencia(b, 2.0) + m.potencia(c, 2.0)
+		escreva("A quantidade mínima de fios que o eletricista percisa comprar é de, pelo menos, ", m.arredondar(m.raiz(a, 2.0) , 1), " metros." )
+	}
+}
+
+b)
+programa
+{
+	inclua biblioteca Matematica --> m
+	funcao inicio()
+	{
+		real a
+		real b 
+		real c 
+
+		escreva("Me diga os lados de seu teto: \n")
+		leia(b , c)
+		
+		a = m.potencia(b, 2.0) + m.potencia(c, 2.0)
+		escreva("A quantidade mínima de fios que o eletricista percisa comprar é de, pelo menos, ", m.arredondar(m.raiz(a, 2.0) , 1), " metros." )
+	}
+}
